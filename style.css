@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #111;
+
+}
+
+body.modal {
+    background-color: #333;
+    color: #eee;
+    padding: 12px;
+}
+
+table.statistics {
+    display: inline-block;
+    width: 320px;
+}
+
+table.statistics tr td {
+    background-color: #333;
+    color: #eee;
+    font-size: 11px;
+
+}
+
+td.desc {
+    width: 120px;
+}
+
+td.val {
+    width: 190px;
+}
+
+#chart {
+    height: calc(100% - 120px);
+}
+
+#error {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+    color: #eee;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+.unit, .label, .stats {
+    color: #eee;
+}
+
+#stats {
+    padding-bottom: 12px;
+}
+
+.stats {
+    min-width: 60px;
+    display: inline-block;
+}
+
+#infos {
+    padding-left: 32px;
+    color: #777;
+}
+
+.label {
+    padding-left: 32px;
+    padding-right: 6px;
+}
+
+#psp, #tsp, #duration {
+    width: 60px;
+}
+
+#degreeunit {
+    width: 100px;
+    display: inline-block;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.btn {
+    margin-top: -1px;
+}
+
+#controls {
+    padding-top: 4px;
+    height: 56px;
+}
+
+#output {
+    width: 560px;
+    height: 370px;
+    overflow-y: scroll;
+}
+
+#input {
+    color: #111;
+}
+
+#console {
+    padding-bottom: 6px;
+}
