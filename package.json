@@ -1,6 +1,6 @@
 {
   "name": "arcticfox-monitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "A simple device monitoring tool for vape devices with Arcticfox firmware",
   "main": "main.js",
