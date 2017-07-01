@@ -4,6 +4,7 @@
 [![devDependency Status](https://david-dm.org/hobbyquaker/arcticfox-monitor/dev-status.svg)](https://david-dm.org/hobbyquaker/arcticfox-monitor?type=dev)
 [![Build Status](https://travis-ci.org/hobbyquaker/arcticfox-monitor.svg?branch=master)](https://travis-ci.org/hobbyquaker/arcticfox-monitor)
 [![Github All Releases](https://img.shields.io/github/downloads/hobbyquaker/arcticfox-monitor/total.svg)]()
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 > A simple device monitoring tool for vape battery mods with Arcticfox firmware. Works on macOS and Linux.
 
