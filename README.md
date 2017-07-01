@@ -34,9 +34,12 @@ Clone the repo, do `npm install` in the project root. Use `npm start` to start t
 Depending on your installed Node.js version it might be necessary to rebuild the USB HID module:
 `./node_modules/.bin/electron-rebuild`
 
-If you want to build your own Node.js based application that communicates with the Arcticfox firmware you can use
-https://github.com/hobbyquaker/arcticfox - a Node module that abstracts the communication and is also used by this
-project.
+
+### Related
+
+* https://github.com/hobbyquaker/arcticfox - a Node module that abstracts the HID communication with the Arcticfox 
+firmware and is also used by this project.
+* https://github.com/hobbyquaker/dna-monitor - a macOS and Linux device monitor for battery mods with the DNA chipset.
 
 
 ### Credits
