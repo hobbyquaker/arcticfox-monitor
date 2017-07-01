@@ -30,7 +30,7 @@
   "dependencies": {
     "arcticfox": "0.0.4",
     "async": "^2.1.4",
-    "electron-is-dev": "^0.1.2",
+    "electron-is-dev": "^0.2.0",
     "electron-json-storage": "^3.0.0",
     "electron-window-state": "^4.0.1",
     "highcharts": "^5.0.6",
