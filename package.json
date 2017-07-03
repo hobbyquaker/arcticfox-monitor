@@ -41,7 +41,7 @@
     "start": "electron .",
     "pack": "build --dir",
     "dist": "build",
-    "postinstall": "electron-builder install-app-deps"
+    "postinstall": "electron-rebuild"
   },
   "build": {
     "productName": "Arcticfox Monitor",
