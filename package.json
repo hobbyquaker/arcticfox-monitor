@@ -40,7 +40,8 @@
   "scripts": {
     "start": "electron .",
     "pack": "build --dir",
-    "dist": "build"
+    "dist": "build",
+    "postinstall": "electron-builder install-app-deps"
   },
   "build": {
     "productName": "Arcticfox Monitor",
@@ -55,6 +56,5 @@
         "tar.gz"
       ]
     }
-  },
-  "postinstall": "electron-builder install-app-deps"
+  }
 }
