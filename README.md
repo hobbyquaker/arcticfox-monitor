@@ -38,6 +38,8 @@ Depending on your installed Node.js version it might be necessary to rebuild the
 
 ### Related
 
+* https://github.com/hobbyquaker/arcticfox-config - Configuration Tool for Vape Devices / Battery Mods with Arcticfox 
+Firmware. Works on MacOS and Linux.
 * https://github.com/hobbyquaker/arcticfox - a Node module that abstracts the HID communication with the Arcticfox 
 firmware and is also used by this project.
 * https://github.com/hobbyquaker/dna-monitor - a macOS and Linux device monitor for battery mods with the DNA chipset.
