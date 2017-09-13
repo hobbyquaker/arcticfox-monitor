@@ -1,6 +1,6 @@
 {
   "name": "arcticfox-monitor",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "private": true,
   "description": "A simple device monitoring tool for vape devices with Arcticfox firmware",
   "main": "main.js",
@@ -23,25 +23,24 @@
   },
   "license": "GPLv3",
   "devDependencies": {
-    "electron": "^1.6.11",
-    "electron-builder": "^19.11.1",
-    "electron-rebuild": "^1.5.11"
+    "electron": "^1.7.6",
+    "electron-builder": "^19.27.7",
+    "electron-rebuild": "^1.6.0"
   },
   "dependencies": {
-    "arcticfox": "0.0.4",
-    "async": "^2.1.4",
-    "electron-is-dev": "^0.2.0",
-    "electron-json-storage": "^3.0.0",
-    "electron-window-state": "^4.0.1",
-    "highcharts": "^5.0.6",
-    "jquery": "^3.1.1",
+    "arcticfox": "^11.0.2",
+    "async": "^2.5.0",
+    "electron-is-dev": "^0.3.0",
+    "electron-json-storage": "^3.1.0",
+    "electron-window-state": "^4.1.1",
+    "highcharts": "^5.0.14",
+    "jquery": "^3.2.1",
     "photonkit": "^0.1.2"
   },
   "scripts": {
+    "rebuild": "electron-rebuild -f",
     "start": "electron .",
-    "pack": "build --dir",
-    "dist": "build",
-    "postinstall": "electron-rebuild"
+    "dist": "build"
   },
   "build": {
     "productName": "Arcticfox Monitor",
@@ -53,8 +52,15 @@
     "linux": {
       "target": [
         "deb",
-        "tar.gz"
+        "tar.gz",
+        "rpm"
       ]
+    },
+    "deb": {
+      "afterInstall": "build/after-install.tpl"
+    },
+    "rpm": {
+      "afterInstall": "build/after-install.tpl"
     }
   }
 }
